@@ -9,7 +9,11 @@ import {
             HostTimerComponent,
             HostNameCardComponent,
             HostMessageBoxComponent,
-            HostChildComponent
+            HostChildComponent,
+            PropertyBindingComponent,
+            ModelComponent,
+            DirectiveElementComponent,
+            TempRefComponent
 
 }from '../index'
 
@@ -23,3 +27,10 @@ export const RouteHeader = [
     { path: "child", component: HostChildComponent },
     { path: "", redirectTo: "chapter", pathMatch: "full" }
 ];
+
+export const RouteHeaderDirective = [
+    { path: "propertyBinding", component: PropertyBindingComponent },
+    { path: "modelComponent", component: ModelComponent },
+    { path: "directiveElem", component: DirectiveElementComponent },
+    { path: "tempRef", component: TempRefComponent },
+]

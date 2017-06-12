@@ -5,18 +5,11 @@ import { Component } from '@angular/core';
     selector: "my-app",
     templateUrl: "./app.component.html",
     styleUrls: ["./app.component.css"],
-    inputs: ["selectLesson"]
 })
 export class AppComponent {
+    _selectLesson: string = 'Components';
 
-    private _selectLesson: string;
-
-    get selectLesson():string {
-        return this._selectLesson;
-    }
-
-    set selectLesson(value){
-        console.log('Click ', value)
+    selectLesson(value){
         this._selectLesson = value;
     }
 }

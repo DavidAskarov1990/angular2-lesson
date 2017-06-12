@@ -1,13 +1,16 @@
 <div class="wrapper">
-
     <h1>
         <span>Lesson Angular2</span>
     </h1>
     <h3>
-        <button>Components</button>
-        <button>Directives</button>
+        <button (click)="selectLesson('Components')" [class.active]="_selectLesson == 'Components'">Components</button>
+        <button (click)="selectLesson('Directives')" [class.active]="_selectLesson == 'Directives'">Directives</button>
     </h3>
 
-    <header-component></header-component>
+    <div *ngIf="_selectLesson == 'Directives'">
+        <header-directive></header-directive>
+    </div>
+    <div *ngIf="_selectLesson == 'Components'">
+        <header-component></header-component>
+    </div>
 </div>
-

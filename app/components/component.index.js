@@ -21,4 +21,8 @@ __export(require("./message-box.component/message-box.component"));
 __export(require("./child.component/child.component"));
 __export(require("./child.component/host.child.component"));
 __export(require("./header.directive/header.directive.component"));
+__export(require("./property-binding/property-binding.component"));
+__export(require("./ng-model.component/ng-model.component"));
+__export(require("./directive.elem.component/directive.elem.component"));
+__export(require("./temp-ref.component/temp-ref.component"));
 //# sourceMappingURL=component.index.js.map

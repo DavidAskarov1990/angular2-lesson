@@ -1,0 +1,30 @@
+<div>
+    <img [src]="imageSrc" [title]="imageTitle">
+    <input type="checkbox" [checked]="flag">
+</div>
+<div>
+    <button (click)="testEvent($event)">Event click</button>
+    <svg width="100" height="100">
+        <circle
+            [attr.r]="value"
+            cx="50"
+            cy="50"
+            stroke="green"
+            stroke-width="4"
+            fill="white"
+        />
+    </svg>
+</div>
+<div>
+    <button (click)="toogleAllClasses()">Toogle All Classes</button>
+    <div [class]="currentClasses">Hello world #1</div>
+    <div
+        [class.border]="isBorder"
+        [class.highlighted]="isHighligh"
+    >
+        Hello world #2
+    </div>
+    <div [style.background-color]="isHighligh ? 'green': 'gray'">
+        Hello world #3
+    </div>
+</div>

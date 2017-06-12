@@ -14,4 +14,10 @@ exports.RouteHeader = [
     { path: "child", component: index_1.HostChildComponent },
     { path: "", redirectTo: "chapter", pathMatch: "full" }
 ];
+exports.RouteHeaderDirective = [
+    { path: "propertyBinding", component: index_1.PropertyBindingComponent },
+    { path: "modelComponent", component: index_1.ModelComponent },
+    { path: "directiveElem", component: index_1.DirectiveElementComponent },
+    { path: "tempRef", component: index_1.TempRefComponent },
+];
 //# sourceMappingURL=route.js.map

@@ -1,0 +1,8 @@
+.border{
+    border: 2px solid darkgoldenrod;
+}
+
+.highlighted{
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
