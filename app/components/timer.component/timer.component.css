@@ -1,0 +1,25 @@
+div{
+    border: 1px solid darkred;
+    padding: 15px;
+}
+
+button{
+    margin: 5px;
+    border: 1px solid darkred;
+    color: darkred;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover{
+    background-color: darkred;
+    color: whitesmoke;
+    transition: all 0.3s;
+}
+
+b{
+    padding: 10px 20px;
+    color: darkred;
+}

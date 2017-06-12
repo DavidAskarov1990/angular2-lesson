@@ -1,0 +1,13 @@
+.wrapper{
+    padding: 25px 0;
+}
+
+h3{
+    text-transform: uppercase;
+    color: darkred;
+}
+
+h3, timer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    padding: 15px 0;
+    box-shadow: 0 0 15px rgba(0,0,0, 0.4);
+}
+
+h1 > span {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.55);
+    padding: 15px 0;
+    color: darkred;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+h1  > span:hover {
+    transition: all 0.5s;
+    color: darkgoldenrod;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.35);;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    min-height: 60px;
+    height: 100%;
+    color: darkred;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.35);
+}
+
+h3 > button{
+    background-color: whitesmoke;
+    border: none;
+    color: darkred;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+}
+
+h3 > button:hover{
+    background-color: darkred;
+    color: whitesmoke;
+    transition: all 0.3s;
+}
