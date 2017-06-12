@@ -7,22 +7,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
- * Created by david on 11.06.17.
+ * Created by smartit-11 on 12.06.17.
  */
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
+var forms_1 = require("@angular/forms");
 var index_1 = require("../../index");
-var HeaderModule = (function () {
-    function HeaderModule() {
+var Lesson3Module = (function () {
+    function Lesson3Module() {
     }
-    return HeaderModule;
+    return Lesson3Module;
 }());
-HeaderModule = __decorate([
+Lesson3Module = __decorate([
     core_1.NgModule({
-        imports: [common_1.CommonModule],
-        declarations: [index_1.HeaderComponent, index_1.HeaderDirectiveComponent],
-        exports: [index_1.HeaderComponent, index_1.HeaderDirectiveComponent]
+        imports: [forms_1.FormsModule, common_1.CommonModule],
+        declarations: [index_1.PropertyBindingComponent, index_1.ModelComponent, index_1.DirectiveElementComponent, index_1.TempRefComponent],
+        exports: [index_1.PropertyBindingComponent, index_1.ModelComponent, index_1.DirectiveElementComponent, index_1.TempRefComponent]
     })
-], HeaderModule);
-exports.HeaderModule = HeaderModule;
-//# sourceMappingURL=header.module.js.map
+], Lesson3Module);
+exports.Lesson3Module = Lesson3Module;
+//# sourceMappingURL=lesson3.module.js.map

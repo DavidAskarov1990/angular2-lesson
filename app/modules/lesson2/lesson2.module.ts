@@ -16,7 +16,6 @@ import {
          ChildComponent,
          HostChildComponent
         } from '../../index';
-
 @NgModule({
     imports: [CommonModule],
     declarations: [

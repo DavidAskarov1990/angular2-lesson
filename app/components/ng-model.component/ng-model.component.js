@@ -6,23 +6,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Created by smartit-11 on 12.06.17.
+ */
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
-        this._selectLesson = 'Components';
+var ModelComponent = (function () {
+    function ModelComponent() {
+        this.xValue = 0;
+        this.yValue = 0;
     }
-    AppComponent.prototype.selectLesson = function (value) {
-        this._selectLesson = value;
+    ModelComponent.prototype.calculate = function () {
+        this.result = +this.xValue + +this.yValue;
     };
-    return AppComponent;
+    ModelComponent.prototype.reset = function () {
+        this.xValue = this.yValue = 0;
+        this.result = undefined;
+    };
+    return ModelComponent;
 }());
-AppComponent = __decorate([
+ModelComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: "my-app",
-        templateUrl: "./app.component.html",
-        styleUrls: ["./app.component.css"],
+        selector: 'model-component',
+        templateUrl: 'ng-model.component.html',
+        styleUrls: ['ng-model.component.css']
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], ModelComponent);
+exports.ModelComponent = ModelComponent;
+//# sourceMappingURL=ng-model.component.js.map

@@ -48,3 +48,9 @@ h3 > button:hover{
     color: whitesmoke;
     transition: all 0.3s;
 }
+
+.active {
+    background-color: darkgoldenrod !important;
+    color: whitesmoke !important;
+    transition: all 0.3s;
+}

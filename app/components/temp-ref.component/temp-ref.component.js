@@ -6,23 +6,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Created by smartit-11 on 12.06.17.
+ */
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
-        this._selectLesson = 'Components';
+var TempRefComponent = (function () {
+    function TempRefComponent() {
     }
-    AppComponent.prototype.selectLesson = function (value) {
-        this._selectLesson = value;
+    TempRefComponent.prototype.calculateSum = function (x, y) {
+        console.log(x + "  " + y);
+        this.result = +x + +y;
     };
-    return AppComponent;
+    return TempRefComponent;
 }());
-AppComponent = __decorate([
+TempRefComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: "my-app",
-        templateUrl: "./app.component.html",
-        styleUrls: ["./app.component.css"],
+        selector: 'temp-ref-component',
+        templateUrl: 'temp-ref.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], TempRefComponent);
+exports.TempRefComponent = TempRefComponent;
+//# sourceMappingURL=temp-ref.component.js.map
