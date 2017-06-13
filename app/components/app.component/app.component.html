@@ -6,6 +6,7 @@
         <button (click)="selectLesson('components')" [class.active]="_selectLesson == 'components'">Components</button>
         <button (click)="selectLesson('directives')" [class.active]="_selectLesson == 'directives'">Directives</button>
         <button (click)="selectLesson('services')" [class.active]="_selectLesson == 'services'">Services</button>
+        <button (click)="selectLesson('routes')" [class.active]="_selectLesson == 'routes'">Routes</button>
     </h3>
 
     <div [ngSwitch]="_selectLesson">
@@ -17,6 +18,9 @@
         </div>
         <div *ngSwitchCase="'services'">
             <header-service></header-service>
+        </div>
+        <div *ngSwitchCase="'routes'">
+            <header-route></header-route>
         </div>
         <div *ngSwitchDefault>
             <header-component></header-component>

@@ -13,9 +13,14 @@ import {
             PropertyBindingComponent,
             ModelComponent,
             DirectiveElementComponent,
-            TempRefComponent
+            TempRefComponent,
+            DataListComponent,
+            CounterParentComponent,
+            // HomeComponent,
+            PhraseListComponent,
+            PhraseDetailsComponent
 
-}from '../index'
+} from '../index'
 
 export const RouteHeader = [
     { path: "counter", component: HostCounterComponent},
@@ -37,5 +42,14 @@ export const RouteHeaderDirective = [
 ];
 
 export const RouteHeaderSevice = [
+    { path: "dataList", component: DataListComponent },
+    { path: "counterParent", component: CounterParentComponent },
+    { path: "", redirectTo: "dataList", pathMatch: "full" }
+];
 
+export const RouteHeaderRoute = [
+    { path: "", redirectTo: "phrases", pathMatch: "full" },
+    // { path: "home", component: HomeComponent },
+    { path: "phrases", component: PhraseListComponent },
+    { path: "phrases/:id", component: PhraseDetailsComponent },
 ];

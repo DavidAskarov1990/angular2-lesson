@@ -8,4 +8,5 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./components/component.index"));
 __export(require("./modules/module.index"));
+__export(require("./services/service.index"));
 //# sourceMappingURL=index.js.map

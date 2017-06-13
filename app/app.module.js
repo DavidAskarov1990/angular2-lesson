@@ -23,6 +23,7 @@ AppModule = __decorate([
         imports: [
             router_1.RouterModule,
             platform_browser_1.BrowserModule,
+            index_1.HeaderModule,
             index_1.LessonsModules
         ],
         declarations: [index_1.AppComponent],
