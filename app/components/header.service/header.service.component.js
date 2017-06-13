@@ -1,4 +1,7 @@
 "use strict";
+/**
+ * Created by smartit-11 on 13.06.17.
+ */
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7,22 +10,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
-        this._selectLesson = 'components';
+var HeaderService = (function () {
+    function HeaderService() {
     }
-    AppComponent.prototype.selectLesson = function (value) {
-        this._selectLesson = value;
-    };
-    return AppComponent;
+    return HeaderService;
 }());
-AppComponent = __decorate([
+HeaderService = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: "my-app",
-        templateUrl: "./app.component.html",
-        styleUrls: ["./app.component.css"],
+        selector: "header-service",
+        templateUrl: "header.service.component.html",
+        styleUrls: ['header.service.component.css']
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], HeaderService);
+exports.HeaderService = HeaderService;
+//# sourceMappingURL=header.service.component.js.map

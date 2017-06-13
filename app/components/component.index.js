@@ -25,4 +25,5 @@ __export(require("./property-binding/property-binding.component"));
 __export(require("./ng-model.component/ng-model.component"));
 __export(require("./directive.elem.component/directive.elem.component"));
 __export(require("./temp-ref.component/temp-ref.component"));
+__export(require("./header.service/header.service.component"));
 //# sourceMappingURL=component.index.js.map

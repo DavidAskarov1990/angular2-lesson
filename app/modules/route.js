@@ -19,5 +19,7 @@ exports.RouteHeaderDirective = [
     { path: "modelComponent", component: index_1.ModelComponent },
     { path: "directiveElem", component: index_1.DirectiveElementComponent },
     { path: "tempRef", component: index_1.TempRefComponent },
+    { path: "", redirectTo: "propertyBinding", pathMatch: "full" }
 ];
+exports.RouteHeaderSevice = [];
 //# sourceMappingURL=route.js.map

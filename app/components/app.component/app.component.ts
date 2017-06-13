@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-    _selectLesson: string = 'Components';
+    _selectLesson: string = 'components';
 
     selectLesson(value){
         this._selectLesson = value;

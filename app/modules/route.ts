@@ -33,4 +33,9 @@ export const RouteHeaderDirective = [
     { path: "modelComponent", component: ModelComponent },
     { path: "directiveElem", component: DirectiveElementComponent },
     { path: "tempRef", component: TempRefComponent },
-]
+    { path: "", redirectTo: "propertyBinding", pathMatch: "full" }
+];
+
+export const RouteHeaderSevice = [
+
+];

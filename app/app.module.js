@@ -10,6 +10,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var platform_browser_1 = require("@angular/platform-browser");
 var index_1 = require("./index");
 var AppModule = (function () {
@@ -20,6 +21,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [
+            router_1.RouterModule,
             platform_browser_1.BrowserModule,
             index_1.LessonsModules
         ],

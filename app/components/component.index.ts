@@ -21,3 +21,4 @@ export * from "./property-binding/property-binding.component";
 export * from "./ng-model.component/ng-model.component";
 export * from "./directive.elem.component/directive.elem.component";
 export * from "./temp-ref.component/temp-ref.component";
+export * from "./header.service/header.service.component";
