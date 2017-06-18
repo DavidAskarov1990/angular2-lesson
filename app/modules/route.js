@@ -19,5 +19,17 @@ exports.RouteHeaderDirective = [
     { path: "modelComponent", component: index_1.ModelComponent },
     { path: "directiveElem", component: index_1.DirectiveElementComponent },
     { path: "tempRef", component: index_1.TempRefComponent },
+    { path: "", redirectTo: "propertyBinding", pathMatch: "full" }
+];
+exports.RouteHeaderSevice = [
+    { path: "dataList", component: index_1.DataListComponent },
+    { path: "counterParent", component: index_1.CounterParentComponent },
+    { path: "", redirectTo: "dataList", pathMatch: "full" }
+];
+exports.RouteHeaderRoute = [
+    { path: "", redirectTo: "phrases", pathMatch: "full" },
+    // { path: "home", component: HomeComponent },
+    { path: "phrases", component: index_1.PhraseListComponent },
+    { path: "phrases/:id", component: index_1.PhraseDetailsComponent },
 ];
 //# sourceMappingURL=route.js.map

@@ -11,12 +11,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
-var router_1 = require("@angular/router");
-var route_1 = require("./route");
 var module_index_1 = require("./module.index");
-var index_1 = require("../index");
-console.log(route_1.RouteHeaderDirective);
-console.log(route_1.RouteHeader);
 var LessonsModules = (function () {
     function LessonsModules() {
     }
@@ -29,11 +24,10 @@ LessonsModules = __decorate([
             module_index_1.Lesson1Module,
             module_index_1.Lesson2Module,
             module_index_1.Lesson3Module,
-            router_1.RouterModule.forRoot(route_1.RouteHeaderDirective),
-            router_1.RouterModule.forRoot(route_1.RouteHeader)
+            module_index_1.Lesson4Module,
+            module_index_1.Lesson5Module
         ],
-        declarations: [index_1.HeaderDirectiveComponent, index_1.HeaderComponent],
-        exports: [module_index_1.Lesson1Module, module_index_1.Lesson2Module, module_index_1.Lesson3Module, index_1.HeaderDirectiveComponent, index_1.HeaderComponent],
+        exports: [module_index_1.Lesson1Module, module_index_1.Lesson2Module, module_index_1.Lesson3Module, module_index_1.Lesson4Module, module_index_1.Lesson5Module]
     })
 ], LessonsModules);
 exports.LessonsModules = LessonsModules;

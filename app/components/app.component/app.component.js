@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this._selectLesson = 'Components';
+        this._selectLesson = 'components';
     }
     AppComponent.prototype.selectLesson = function (value) {
         this._selectLesson = value;

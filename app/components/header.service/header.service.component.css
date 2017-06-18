@@ -1,0 +1,32 @@
+.links{
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkred;
+    min-height: 60px;
+    height: 100%;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.15);
+}
+
+button{
+    background-color: darkred;
+    border: none;
+    color: whitesmoke;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: darkred;
+    transition: all 0.3s;
+}
+
+.active{
+    background-color: whitesmoke;
+    color: darkred;
+}

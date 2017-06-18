@@ -3,14 +3,31 @@
         <span>Lesson Angular2</span>
     </h1>
     <h3>
-        <button (click)="selectLesson('Components')" [class.active]="_selectLesson == 'Components'">Components</button>
-        <button (click)="selectLesson('Directives')" [class.active]="_selectLesson == 'Directives'">Directives</button>
+        <button (click)="selectLesson('components')" [class.active]="_selectLesson == 'components'">Components</button>
+        <button (click)="selectLesson('directives')" [class.active]="_selectLesson == 'directives'">Directives</button>
+        <button (click)="selectLesson('services')" [class.active]="_selectLesson == 'services'">Services</button>
+        <button (click)="selectLesson('routes')" [class.active]="_selectLesson == 'routes'">Routes</button>
     </h3>
 
-    <div *ngIf="_selectLesson == 'Directives'">
-        <header-directive></header-directive>
+    <div [ngSwitch]="_selectLesson">
+        <div *ngSwitchCase="'directives'">
+            <header-directive></header-directive>
+        </div>
+        <div *ngSwitchCase="'components'">
+            <header-component></header-component>
+        </div>
+        <div *ngSwitchCase="'services'">
+            <header-service></header-service>
+        </div>
+        <div *ngSwitchCase="'routes'">
+            <header-route></header-route>
+        </div>
+        <div *ngSwitchDefault>
+            <header-component></header-component>
+        </div>
     </div>
-    <div *ngIf="_selectLesson == 'Components'">
-        <header-component></header-component>
+
+    <div>
+        <router-outlet></router-outlet>
     </div>
 </div>

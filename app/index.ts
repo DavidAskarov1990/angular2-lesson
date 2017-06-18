@@ -4,4 +4,4 @@
 
 export * from "./components/component.index";
 export * from "./modules/module.index";
-
+export * from "./services/service.index";

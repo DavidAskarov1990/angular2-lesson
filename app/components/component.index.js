@@ -25,4 +25,10 @@ __export(require("./property-binding/property-binding.component"));
 __export(require("./ng-model.component/ng-model.component"));
 __export(require("./directive.elem.component/directive.elem.component"));
 __export(require("./temp-ref.component/temp-ref.component"));
+__export(require("./header.service/header.service.component"));
+__export(require("./data-list.component/data-list.component"));
+__export(require("./counter.parent.component/counter.parent.component"));
+__export(require("./counter.parent.component/index"));
+__export(require("./header.route.component/header.route.component"));
+__export(require("./route.lesson1.component/index"));
 //# sourceMappingURL=component.index.js.map

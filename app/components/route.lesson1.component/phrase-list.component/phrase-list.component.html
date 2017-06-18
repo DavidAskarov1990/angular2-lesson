@@ -1,0 +1,11 @@
+<div>
+    <h2>Phrases</h2>
+    <div>
+        <ul class="phrases">
+            <li *ngFor="let phrase of phrases"
+                (click)="onSelect(phrase)">
+                {{phrase.value}}
+            </li>
+        </ul>
+    </div>
+</div>

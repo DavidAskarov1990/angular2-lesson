@@ -3,23 +3,18 @@
  */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-import { RouteHeader, RouteHeaderDirective } from './route';
-import { Lesson1Module, Lesson2Module, Lesson3Module, HeaderModule } from './module.index';
-import { HeaderComponent, HeaderDirectiveComponent } from '../index';
-console.log(RouteHeaderDirective)
-console.log(RouteHeader)
+import { Lesson1Module, Lesson2Module, Lesson3Module, Lesson4Module, Lesson5Module} from './module.index';
+
 @NgModule({
     imports: [
         CommonModule,
         Lesson1Module,
         Lesson2Module,
         Lesson3Module,
-        RouterModule.forRoot(RouteHeaderDirective),
-        RouterModule.forRoot(RouteHeader)
+        Lesson4Module,
+        Lesson5Module
     ],
-    declarations: [HeaderDirectiveComponent, HeaderComponent],
-    exports: [Lesson1Module, Lesson2Module, Lesson3Module, HeaderDirectiveComponent, HeaderComponent],
+    exports: [Lesson1Module, Lesson2Module, Lesson3Module, Lesson4Module, Lesson5Module]
 })
 
 export class LessonsModules {}
