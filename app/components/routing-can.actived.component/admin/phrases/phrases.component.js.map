@@ -1,0 +1,1 @@
+{"version":3,"file":"phrases.component.js","sourceRoot":"","sources":["phrases.component.ts"],"names":[],"mappings":";;;;;;;;AAAA;;GAEG;AACH,sCAAyC;AAOzC,IAAa,qBAAqB;IAAlC;IAAoC,CAAC;IAAD,4BAAC;AAAD,CAAC,AAArC,IAAqC;AAAxB,qBAAqB;IALjC,gBAAS,CAAC;QACP,QAAQ,EAAE,MAAM,CAAC,EAAE;QACnB,QAAQ,EAAC,qBAAqB;QAC9B,WAAW,EAAE,wBAAwB;KACxC,CAAC;GACW,qBAAqB,CAAG;AAAxB,sDAAqB"}

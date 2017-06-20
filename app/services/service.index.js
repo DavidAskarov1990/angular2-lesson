@@ -9,5 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./data.service"));
 __export(require("./counter.service"));
 __export(require("./phrase.service"));
+__export(require("./auth-guard.service"));
+__export(require("./auth.service"));
 __export(require("./data/phrase"));
 //# sourceMappingURL=service.index.js.map

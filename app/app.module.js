@@ -27,6 +27,7 @@ AppModule = __decorate([
             index_1.LessonsModules
         ],
         declarations: [index_1.AppComponent],
+        providers: [index_1.AuthGuard, index_1.AuthService],
         bootstrap: [index_1.AppComponent]
     })
 ], AppModule);

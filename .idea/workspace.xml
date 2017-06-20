@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45430e84-37ac-4da6-90f2-a916a8539334" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
@@ -10,13 +11,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/component.index.js" afterPath="$PROJECT_DIR$/app/components/component.index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/component.index.js.map" afterPath="$PROJECT_DIR$/app/components/component.index.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/component.index.ts" afterPath="$PROJECT_DIR$/app/components/component.index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header.service/header.service.component.html" afterPath="$PROJECT_DIR$/app/components/header.service/header.service.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js.map" afterPath="$PROJECT_DIR$/app/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.ts" afterPath="$PROJECT_DIR$/app/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/headers/header.module.js" afterPath="$PROJECT_DIR$/app/modules/headers/header.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/headers/header.module.js.map" afterPath="$PROJECT_DIR$/app/modules/headers/header.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/headers/header.module.ts" afterPath="$PROJECT_DIR$/app/modules/headers/header.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header.route.component/header.route.component.html" afterPath="$PROJECT_DIR$/app/components/header.route.component/header.route.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.html" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js.map" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.js" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.js.map" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts" afterPath="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/lessons.module.js" afterPath="$PROJECT_DIR$/app/modules/lessons.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/lessons.module.js.map" afterPath="$PROJECT_DIR$/app/modules/lessons.module.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/lessons.module.ts" afterPath="$PROJECT_DIR$/app/modules/lessons.module.ts" />
@@ -26,6 +28,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/route.js" afterPath="$PROJECT_DIR$/app/modules/route.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/route.js.map" afterPath="$PROJECT_DIR$/app/modules/route.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/route.ts" afterPath="$PROJECT_DIR$/app/modules/route.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service.index.js" afterPath="$PROJECT_DIR$/app/services/service.index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service.index.js.map" afterPath="$PROJECT_DIR$/app/services/service.index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service.index.ts" afterPath="$PROJECT_DIR$/app/services/service.index.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,98 +45,94 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="phrase-list.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.html">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#41#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phrase-list.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.css">
+      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phrase-detail.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts">
+      <file leaf-file-name="lesson5.4.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
-                <element signature="e#46#96#0" expanded="true" />
+                <element signature="e#41#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/component.index.ts">
+      <file leaf-file-name="lesson5.4-rouiting.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4-rouiting.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="45" />
+              <folding>
+                <element signature="e#41#82#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lessons.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/modules/lessons.module.ts">
+      <file leaf-file-name="can-deactivate-guard.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/services/can-deactivate-guard.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="87" />
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#46#87#0" expanded="true" />
+                <element signature="e#41#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson5.module.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/modules/lesson5/lesson5.module.ts">
+      <file leaf-file-name="auth-guard.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/auth-guard.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
-                <element signature="e#46#87#0" expanded="true" />
+                <element signature="e#41#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phrase-detail.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.css">
+      <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/auth.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phrase-detail.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#41#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,11 +140,9 @@
       <file leaf-file-name="route.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/route.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-              <folding>
-                <element signature="e#42#601#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,9 +152,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -167,6 +166,7 @@
       <find>common</find>
       <find>getStyle</find>
       <find>entryComponents</find>
+      <find>rxjs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,57 +175,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/components/directive.elem.component/directive.elem.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/directive.elem.component/directive.elem.component.html" />
-        <option value="$PROJECT_DIR$/app/modules/lesson3/lesson3.module.ts" />
-        <option value="$PROJECT_DIR$/app/components/temp-ref.component/temp-ref.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/temp-ref.component/temp-ref.component.html" />
-        <option value="$PROJECT_DIR$/app/modules/lesson2/lesson2.module.ts" />
-        <option value="$PROJECT_DIR$/app/components/header.component/header.component.html" />
-        <option value="$PROJECT_DIR$/app/components/header.directive/header.directive.component.html" />
-        <option value="$PROJECT_DIR$/app/components/app.component/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/header.service/header.service.component.css" />
-        <option value="$PROJECT_DIR$/app/components/header.service/header.service.component.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/app/services/data.service.ts" />
-        <option value="$PROJECT_DIR$/app/components/data-list.component/data-list.component.css" />
-        <option value="$PROJECT_DIR$/app/components/data-list.component/data-list.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/data-list.component/data-list.component.html" />
-        <option value="$PROJECT_DIR$/app/services/counter.service.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.css" />
-        <option value="$PROJECT_DIR$/app/components/header.service/header.service.component.html" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter2/counter2.component.html" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter2/counter2.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter3/counter3.component.html" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/index.ts" />
-        <option value="$PROJECT_DIR$/app/modules/lesson4/lesson4.module.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter1/counter1.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter1/counter1.component.html" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter3/counter3.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.html" />
-        <option value="$PROJECT_DIR$/app/modules/module.index.ts" />
-        <option value="$PROJECT_DIR$/app/components/header.route.component/header.route.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/header.route.component/header.route.component.css" />
-        <option value="$PROJECT_DIR$/app/modules/lessons.module.ts" />
-        <option value="$PROJECT_DIR$/app/components/app.component/app.component.html" />
-        <option value="$PROJECT_DIR$/app/routing.component/shared/phrase.ts" />
-        <option value="$PROJECT_DIR$/app/services/service.index.ts" />
-        <option value="$PROJECT_DIR$/app/components/component.index.ts" />
-        <option value="$PROJECT_DIR$/app/index.ts" />
         <option value="$PROJECT_DIR$/app/services/phrase.service.ts" />
-        <option value="$PROJECT_DIR$/app/components/header.route.component/header.route.component.html" />
-        <option value="$PROJECT_DIR$/app/modules/headers/header.module.ts" />
-        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts" />
-        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.html" />
-        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.css" />
+        <option value="$PROJECT_DIR$/app/components/app.component/app.component.html" />
         <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.html" />
-        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.css" />
-        <option value="$PROJECT_DIR$/app/modules/route.ts" />
-        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/index.ts" />
         <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts" />
-        <option value="$PROJECT_DIR$/app/modules/lesson5/lesson5.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/route.lesson2.component/phrase-details.component/phrase-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/route.lesson2.component/phrase-list.component/phrase-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/RoutingOptionalComponent.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1.module.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/phrase-list.component/phrase-list.component.html" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/phrase-details.component/phrase-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/phrase-list.component/phrase-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/modules/route.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/phrase-list.component/phrase-list.component.css" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/children1.component/child1.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/index.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson.5.3-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson5.3.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/phrase-details.component/phrase-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/phrase-list.component/phrase-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/component.index.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.css" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.html" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.ts" />
+        <option value="$PROJECT_DIR$/app/modules/module.index.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lessons.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/header.route.component/header.route.component.html" />
+        <option value="$PROJECT_DIR$/app/services/service.index.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/index.ts" />
+        <option value="$PROJECT_DIR$/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.html" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/app/services/auth-guard.service.ts" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4-rouiting.module.ts" />
+        <option value="$PROJECT_DIR$/app/services/can-deactivate-guard.service.ts" />
       </list>
     </option>
   </component>
@@ -246,6 +246,7 @@
     <option name="width" value="1857" />
     <option name="height" value="1092" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -261,25 +262,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -289,11 +291,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -307,11 +309,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,37 +327,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson5.module.ts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -369,11 +345,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -385,17 +361,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="route.lesson1.component" />
+              <option name="myItemId" value="routing-can.actived.component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -407,21 +383,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="route.lesson1.component" />
+              <option name="myItemId" value="routing-can.actived.component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="phrase-list.component" />
+              <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular2-lesson" />
+              <option name="myItemId" value="angular2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -433,24 +409,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="route.lesson1.component" />
+              <option name="myItemId" value="routing-can.actived.component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="phrase-details.component" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routing-can.actived.component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="header.route.component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PROJECT/mnh-core" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -458,8 +485,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/components/routing-can.actived.component" />
+      <recent name="$PROJECT_DIR$/app/components/routing-children.component/child2.component" />
+      <recent name="$PROJECT_DIR$/app/components/routing-optional.component" />
+      <recent name="$PROJECT_DIR$/app/components/route.lesson2.component" />
       <recent name="$PROJECT_DIR$/app/services/data" />
-      <recent name="$PROJECT_DIR$/app/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -558,26 +588,42 @@
       <workItem from="1497270542194" duration="2612000" />
       <workItem from="1497276410371" duration="678000" />
       <workItem from="1497335362257" duration="20852000" />
+      <workItem from="1497767980820" duration="1754000" />
+      <workItem from="1497769816281" duration="1764000" />
+      <workItem from="1497771632260" duration="1771000" />
+      <workItem from="1497773478465" duration="1837000" />
+      <workItem from="1497775398118" duration="2136000" />
+      <workItem from="1497777582618" duration="867000" />
+      <workItem from="1497779446098" duration="2092000" />
+      <workItem from="1497782720513" duration="1842000" />
+      <workItem from="1497784713885" duration="1662000" />
+      <workItem from="1497786545795" duration="890000" />
+      <workItem from="1497788757585" duration="1527000" />
+      <workItem from="1497790629245" duration="1800000" />
+      <workItem from="1497792453890" duration="1803000" />
+      <workItem from="1497794301566" duration="744000" />
+      <workItem from="1497890881161" duration="1749000" />
+      <workItem from="1497892693518" duration="1992000" />
+      <workItem from="1497894793245" duration="1763000" />
+      <workItem from="1497896620088" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42587000" />
+    <option name="totallyTimeSpent" value="72491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5060423" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28914404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881002" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -585,6 +631,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -688,6 +735,46 @@
         <option value="$PROJECT_DIR$/app/components/route.lesson1.component/index.js" />
         <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js" />
         <option value="$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1-routing.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/index.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-optional.component/index.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2-routing.module.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/index.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/index.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson.5.3-routing.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson.5.3-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson5.3.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.3/lesson5.3.module.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.js.map" />
+        <option value="$PROJECT_DIR$/app/services/auth-guard.service.js" />
+        <option value="$PROJECT_DIR$/app/services/auth-guard.service.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4.module.js" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4-rouiting.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4.module.js.map" />
+        <option value="$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4-rouiting.module.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/index.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/index.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.js.map" />
+        <option value="$PROJECT_DIR$/app/services/auth.service.js" />
+        <option value="$PROJECT_DIR$/app/services/auth.service.js.map" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.js" />
+        <option value="$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.js.map" />
       </list>
     </option>
   </component>
@@ -699,437 +786,380 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/header.component/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.service/header.service.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/directive.elem.component/directive.elem.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="43" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.service/header.service.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/app.component/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#88#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/data-list.component/data-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#96#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/data-list.component/data-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/data-list.component/data-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.service/header.service.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter2/counter2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter2/counter2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#47#89#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter3/counter3.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter1/counter1.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#46#88#0" expanded="true" />
-            <marker date="1497346703330" expanded="true" signature="329:386" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter1/counter1.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter.parent.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/module.index.ts">
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/counter.parent.component/counter3/counter3.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#89#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.directive/header.directive.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.directive/header.directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routing.component/shared/phrase.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/lesson3/lesson3.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/data/phrase.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/app.component/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <marker date="1497354319936" expanded="true" signature="0:1186" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/counter.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.ts">
+    <entry file="file://$PROJECT_DIR$/app/components/header.route.component/header.route.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5/lesson5.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-optional.component/phrase-list.component/phrase-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header.route.component/header.route.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
+        <state relative-caret-position="640">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-optional.component/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-optional.component/phrase-details.component/phrase-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.1/lesson5.1.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-optional.component/phrase-list.component/phrase-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/child1.component/child1.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/child2.component/child2.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/routing.children.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/host.counter.component/host.counter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.2/lesson5.2.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-children.component/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/phrase-details.component/phrase-detail.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/phrase-list.component/phrase-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/phrase-details.component/phrase-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/phrases/phrases.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/users/users.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.3/lesson5.3.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/module.index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.3/lesson.5.3-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/header.route.component/header.route.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lessons.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/counter.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/service.index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/phrase.service.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="237">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/lesson4/lesson4.module.ts">
+    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.directive/header.directive.component.html">
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.route.component/header.route.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/headers/header.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#41#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/header.route.component/header.route.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-list.component/phrase-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/route.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-          <folding>
-            <element signature="e#42#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/lessons.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="87" />
-          <folding>
-            <element signature="e#46#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="600">
+          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/route.lesson1.component/phrase-details.component/phrase-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="200">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
-            <element signature="e#46#96#0" expanded="true" />
+            <element signature="e#41#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/component.index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="515">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/routing-can.actived.component/admin/admin-home/admin-home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/lesson5/lesson5.module.ts">
+    <entry file="file://$PROJECT_DIR$/app/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="e#46#87#0" expanded="true" />
+            <element signature="e#41#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#41#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/auth-guard.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#41#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/lesson5.4/lesson5.4-rouiting.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#41#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/can-deactivate-guard.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#84#0" expanded="true" />
           </folding>
         </state>
       </provider>

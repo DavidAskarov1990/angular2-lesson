@@ -27,9 +27,8 @@ exports.RouteHeaderSevice = [
     { path: "", redirectTo: "dataList", pathMatch: "full" }
 ];
 exports.RouteHeaderRoute = [
-    { path: "", redirectTo: "phrases", pathMatch: "full" },
-    // { path: "home", component: HomeComponent },
+    { path: "", redirectTo: "phrases3", pathMatch: "full" },
     { path: "phrases", component: index_1.PhraseListComponent },
-    { path: "phrases/:id", component: index_1.PhraseDetailsComponent },
+    { path: "phrases/:id", component: index_1.PhraseDetailsComponent }
 ];
 //# sourceMappingURL=route.js.map

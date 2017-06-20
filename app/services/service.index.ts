@@ -5,5 +5,7 @@
 export * from './data.service';
 export * from './counter.service';
 export * from './phrase.service';
+export * from './auth-guard.service';
+export * from './auth.service';
 
 export * from './data/phrase';

@@ -1,0 +1,24 @@
+div > h2{
+    display: flex;
+    justify-content: center;
+}
+
+div > div {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid darkred;
+    padding: 5px;
+}
+
+li{
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: aquamarine;
+    font-weight: bold;
+}

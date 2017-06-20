@@ -22,6 +22,18 @@ var PhraseDetailsComponent = (function () {
         this.service = service;
     }
     PhraseDetailsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.activatedRoute.params.forEach(function (params) {
+            var id = +params["id"];
+            _this.service
+                .getPhrase(id)
+                .then(function (res) {
+                _this.phrase = res;
+            });
+        });
+    };
+    PhraseDetailsComponent.prototype.goToPhraseList = function () {
+        this.router.navigate(['phrases']);
     };
     return PhraseDetailsComponent;
 }());

@@ -3,7 +3,7 @@
  */
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
-import { PhraseService } from "../../../services/service.index";
+import { PhraseService, Phrase } from "../../../services/service.index";
 
 @Component({
     moduleId: module.id,
@@ -13,12 +13,25 @@ import { PhraseService } from "../../../services/service.index";
 })
 export class PhraseDetailsComponent implements OnInit{
 
+    phrase: Phrase;
+
     constructor(private router: Router,
                 private activatedRoute: ActivatedRoute,
                 private service: PhraseService) {}
 
     ngOnInit(){
+        this.activatedRoute.params.forEach((params:Params) => {
+            let id = +params["id"];
+            this.service
+                .getPhrase(id)
+                .then(res => {
+                    this.phrase = res;
+                })
+        })
+    }
 
+    goToPhraseList(){
+        this.router.navigate(['phrases']);
     }
 
 }

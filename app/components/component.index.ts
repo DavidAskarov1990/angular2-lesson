@@ -27,3 +27,6 @@ export * from "./counter.parent.component/counter.parent.component";
 export * from "./counter.parent.component/index";
 export * from "./header.route.component/header.route.component";
 export * from "./route.lesson1.component/index";
+export * from "./routing-optional.component/index";
+export * from "./routing-children.component/index";
+export * from "./routing-can.actived.component/index";

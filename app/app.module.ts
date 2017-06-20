@@ -5,7 +5,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
-import { LessonsModules, HeaderModule, AppComponent } from './index';
+import { LessonsModules, HeaderModule, AppComponent, AuthGuard, AuthService } from './index';
 
 @NgModule({
     imports: [
@@ -15,6 +15,7 @@ import { LessonsModules, HeaderModule, AppComponent } from './index';
         LessonsModules
     ],
     declarations: [AppComponent],
+    providers: [AuthGuard, AuthService],
     bootstrap: [AppComponent]
 })
 

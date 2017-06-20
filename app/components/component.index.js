@@ -31,4 +31,7 @@ __export(require("./counter.parent.component/counter.parent.component"));
 __export(require("./counter.parent.component/index"));
 __export(require("./header.route.component/header.route.component"));
 __export(require("./route.lesson1.component/index"));
+__export(require("./routing-optional.component/index"));
+__export(require("./routing-children.component/index"));
+__export(require("./routing-can.actived.component/index"));
 //# sourceMappingURL=component.index.js.map

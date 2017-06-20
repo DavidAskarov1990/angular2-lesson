@@ -4,8 +4,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 import {PhraseService, Phrase } from "../../../services/service.index";
-// import { Phrase } from "../../../services/data/phrase";
-
 
 @Component({
     moduleId: module.id,

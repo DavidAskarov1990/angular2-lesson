@@ -15,7 +15,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var service_index_1 = require("../../../services/service.index");
-// import { Phrase } from "../../../services/data/phrase";
 var PhraseListComponent = (function () {
     function PhraseListComponent(router, pharaseService) {
         this.router = router;

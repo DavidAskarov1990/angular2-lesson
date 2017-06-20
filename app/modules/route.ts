@@ -16,7 +16,6 @@ import {
             TempRefComponent,
             DataListComponent,
             CounterParentComponent,
-            // HomeComponent,
             PhraseListComponent,
             PhraseDetailsComponent
 
@@ -48,8 +47,7 @@ export const RouteHeaderSevice = [
 ];
 
 export const RouteHeaderRoute = [
-    { path: "", redirectTo: "phrases", pathMatch: "full" },
-    // { path: "home", component: HomeComponent },
+    { path: "", redirectTo: "phrases3", pathMatch: "full" },
     { path: "phrases", component: PhraseListComponent },
-    { path: "phrases/:id", component: PhraseDetailsComponent },
+    { path: "phrases/:id", component: PhraseDetailsComponent }
 ];
